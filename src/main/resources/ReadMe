@@ -1,0 +1,10 @@
+As per the assignment request:
+1. i recreated the project based on Ldap authentication and JWT token the same way done with the 1v1 session.
+2. i created the models related to the api but in WebFlux format.
+3. i created the corresponding services and wrote all necessary CRUD operartions in it.
+4. i created a MongoDB nonRDB on cloud and connected it to my project.
+5. i created clean conveyable controllers.
+6. i created a projectSecurity configuration where i gave access only for ADMIN role.
+7. i created exception handling in the login service on case the admin entered his username or pass wrong.
+8. i created another exception handler in MyUserService and PhotoService and AlbumService if the admin try to get an invalid id.
+
